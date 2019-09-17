@@ -1,0 +1,31 @@
+{
+  "^c"       = "copy:"; // ctrl-c
+  "^v"       = "paste:"; // ctrl-v
+  "^x"       = "cut:"; // ctrl-x
+  "^z"       = "undo:"; // ctrl-z
+  "^y"       = "redo:"; // ctrl-y
+  "^a"       = "selectAll:"; // ctrl-a
+  "^s"       = "saveDocument:"; // ctrl-s
+  "^$s"      = "saveDocumentAs:"; // ctrl-shift-s
+  "^n"       = "newDocument:"; // ctrl-n
+  "^o"       = "openDocument:"; // ctrl-o
+  "^p"       = "printDocument:"; // ctrl-p
+
+  "\UF729"   = "moveToBeginningOfLine:"; // home
+  "\UF72B"   = "moveToEndOfLine:"; // end
+  "$\UF729"  = "moveToBeginningOfLineAndModifySelection:"; // shift-home
+  "$\UF72B"  = "moveToEndOfLineAndModifySelection:"; // shift-end
+
+  "^\UF729"  = "moveToBeginningOfDocument:"; // ctrl-home
+  "^\UF72B"  = "moveToEndOfDocument:"; // ctrl-end
+  "^$\UF729" = "moveToBeginningOfDocumentAndModifySelection:"; // ctrl-shift-home
+  "^$\UF72B" = "moveToEndOfDocumentAndModifySelection:"; // ctrl-shift-end
+
+  "^\UF702"  = "moveWordLeft:"; // ctrl-left
+  "^\UF703"  = "moveWordRight:"; // ctrl-right
+  "^$\UF702" = "moveWordLeftAndModifySelection:"; // ctrl-shift-left
+  "^$\UF703" = "moveWordRightAndModifySelection:"; // ctrl-shift-right
+
+  "^\U007F"  = "deleteWordBackward:"; // ctrl-backspace
+  "^\UF728"  = "deleteWordForward:"; // ctrl-delete
+}
